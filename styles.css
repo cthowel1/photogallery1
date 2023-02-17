@@ -103,7 +103,8 @@ nav li a
 /*----Mobile first style 485px---*/
 
 @media (max-width:485px) {
-	body { background-color: #ffff;
+	body { 
+		background-color: #ffff;
 		color:#000000;
 		height: auto;
 }
@@ -118,23 +119,37 @@ nav h2{
 	visibility: hidden;
 	display: none;
 }
-
+nav li{
+	list-style: none;
+}
+nav li a {
+	background-color: #000000;
+}
 header {
-	background-color: #ffff;
+	/*background-color: #ffff;*/
 	color: #007d7b;
-	justify-content: center;
+	margin: 5px 0 5px 0;
+}
+header h1 {
+	text-align: center;
+}
+[href="#top"] {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 5px 0 0px 0px;
 }
 #about h2{
-	justify-content: center;
+	text-align: center;
 }
 #about p{
-	justify-content: left;
+	text-align: center;
 }
 #gallery h2{
-	justify-content: center;
+	text-align: center;
 }
 #gallery p{
-	justify-content: center;
+	text-align: center;
 }
 .ga1 {
 	columns: 1;
@@ -159,12 +174,12 @@ header {
 #contact h2{
 	columns: 1;
 	width:fit-content;
-	justify-content: center;
+	text-align: center;
 }
 #contact p {
 	columns: 1;
 	width:fit-content;
-	justify-content: center;
+	text-align: center;
 }
 .form {
 	label: #fff;
@@ -174,7 +189,7 @@ header {
 	border-radius: 35%;
 	background-color: #007d7b;
 	color:#ffffff;
-	justify-content: center;
+	text-align: center;
 }
 footer {
 	color: #ffffff;
