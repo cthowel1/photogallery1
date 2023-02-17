@@ -48,24 +48,24 @@ table {
 }
 /*-----Rest-------*/
 /*----Universal----*/ 
-/*
+
 html{ 
-	background-color: #000000
-	color: #ffffff
+	background-color: #000000;
+	color: #ffffff;
 }
 
 body {
 	margin: 0 auto;
 	background-color: #ffffff;
 	font-family: arial, helvetica, sans-serif;
-	max-width: 485px;
+	width: 485px;
 }
 header,footer, nav {
 	width: 100%
 }
 header {
-	background-color: #ffffff
-	color:#007d7b
+	background-color: #ffffff;
+	color: #007d7b;
 }
 h1 {
 	font-size: 3em;
@@ -86,26 +86,29 @@ footer {
 	text-align: center;
 }
 
-*/
-/*
 nav {
 	background-color: #000000;
-	color: #fffff;
+	color: #ffff;
 }
-nav li
+
+/*nav li
 nav li a
 */
 /*----Mobile first style 485px---*/
-/*
+
 @media (max-width:485px) {
 	body { background-color: #ffff;
 }
 nav {
 	background-color: #000000;
-	color: #fffff;
+	color: #ffff;
+}
+header {
+	background-color: #ffff;
+	color: #007d7b;
 }
 }
-*/
+
 
 /*----Media query 880px----*/
 /*@media (min-width: 486px) and (max-width: 880px) {
@@ -113,19 +116,26 @@ nav {
 }
 nav {
 	background-color: #000000;
-	color: #fffff;
+	color: #ffff;
 }
-
-	}
-}*/
+header {
+	background-color: #ffff;
+	color: #007d7b;
+}
+}
+*/
 
 /*----Media query 1300px---*/
-/* @media (min-width: 881px) and (max-width: 1300px) {
+ /*@media (min-width: 881px) and (max-width: 1300px) {
 	body { background-color: #ffff;
 }
 nav {
 	background-color: #000000;
-	color: #fffff;
+	color: #ffff;
+}
+header {
+	background-color: #ffff;
+	color: #007d7b;
 }
 }
 */
