@@ -51,12 +51,12 @@ table {
 
 html{ 
 	background-color: #000000;
-	color: #ffffff;
 }
 
 body {
 	margin: 0 auto;
 	background-color: #ffffff;
+	color:#000000;
 	font-family: arial, helvetica, sans-serif;
 	width: 485px;
 }
@@ -89,6 +89,12 @@ footer {
 nav {
 	background-color: #000000;
 	color: #ffff;
+	display:inline;
+	justify-content: space-between;
+}
+nav h2{
+	visibility: hidden;
+	display: none;
 }
 
 /*nav li
@@ -98,14 +104,81 @@ nav li a
 
 @media (max-width:485px) {
 	body { background-color: #ffff;
+		color:#000000;
+		height: auto;
 }
 nav {
 	background-color: #000000;
 	color: #ffff;
+	display:inline;
+	justify-content: space-between;
+	justify-items: center;
 }
+nav h2{
+	visibility: hidden;
+	display: none;
+}
+
 header {
 	background-color: #ffff;
 	color: #007d7b;
+	justify-content: center;
+}
+#about h2{
+	justify-content: center;
+}
+#about p{
+	justify-content: left;
+}
+#gallery h2{
+	justify-content: center;
+}
+#gallery p{
+	justify-content: center;
+}
+.ga1 {
+	columns: 1;
+	width:fit-content;
+	justify-content: center;
+}
+.ga2 {
+	columns: 1;
+	width:fit-content;
+	justify-content: center;
+}
+.ga3 {
+	columns: 1;
+	width:fit-content;
+	justify-content: center;
+}
+.ga4{
+	columns: 1;
+	width:fit-content;
+	justify-content: center;
+}
+#contact h2{
+	columns: 1;
+	width:fit-content;
+	justify-content: center;
+}
+#contact p {
+	columns: 1;
+	width:fit-content;
+	justify-content: center;
+}
+.form {
+	label: #fff;
+	color:#007d7b;
+}
+.form1 {
+	border-radius: 35%;
+	background-color: #007d7b;
+	color:#ffffff;
+	justify-content: center;
+}
+footer {
+	color: #ffffff;
+	justify-content: center;
 }
 }
 
